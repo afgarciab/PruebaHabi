@@ -12,6 +12,7 @@ Este proyecto es una API modular en Python que permite consultar propiedades inm
 - **unittest** (framework de pruebas unitarias de Python)
 - **unittest.mock** (simulación de objetos externos)
 - Arquitectura basada en **repositorios** y **servicios**
+- **pydoc** (Autodocumetación del codigo)
 
 ---
 
@@ -125,6 +126,13 @@ La columna `last_update` garantiza la integridad de la información al proporcio
 
 ---
 
+## auto documentación
+El proyecto incluye documentación automática generada a partir de los docstrings de cada módulo, clase y función.
+Para visualizarla, simplemente ejecuta el siguiente comando desde la raíz del proyecto:
+
+python -m pydoc -b
+
+Este comando abrirá una interfaz web local, generalmente accesible desde http://localhost:7464, donde podrás explorar fácilmente toda la documentación del código.
 
 Este `README.md` cubre todo lo necesario para entender el funcionamiento del proyecto, su estructura, cómo ejecutarlo y cómo implementar las funcionalidades clave, además de la documentación de las clases y métodos principales.
 
